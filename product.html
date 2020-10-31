@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Movies</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+
+		<!-- font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/7a3da45493.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Google font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<!-- Page wrapper -->
+		<div class="page-wrapper">
+			<!-- Page Header-->
+			<header class="nav_header sticky-top">
+				<!-- Bootstrap container -->
+				<div class="container">
+					<!-- Navbar -->
+					<nav
+						class="navbar navbar-dark navbar-expand-md justify-content-between p-1"
+					>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-toggle="collapse"
+							data-target=".dual-nav"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0"
+						>
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="home.html">Home</a>
+								</li>
+								<li class="nav-item active pl-0">
+									<a class="nav-link" href="gallery.html">Gallery</a>
+								</li>
+								<li class="nav-item d-none">
+									<a class="nav-link" href="contact-us.html">Contact Us</a>
+								</li>
+								<li class="nav-item d-none">
+									<a class="nav-link" href="about-us.html">About Us</a>
+								</li>
+							</ul>
+						</div>
+
+						<a
+							href="home.html"
+							class="navbar-brand mx-auto d-block font-weight-bold text-center order-0 order-md-1 w-25 bolder"
+							style="font-size: 30px"
+							><span class="font-weight-bolder" style="color: var(--warning-co)"
+								>M</span
+							>ovies</a
+						>
+
+						<div class="navbar-collapse collapse w-50 order-2">
+							<ul class="nav navbar-nav ml-auto" style="font-size: 20px">
+								<li class="nav-item mr-2">
+									<a class="nav-link" href=""
+										><i class="fas fa-user-circle"></i
+									></a>
+								</li>
+
+								<li class="nav-item cart-btn">
+									<a class="nav-link" href="">
+										<i class="fas fa-cart-plus"></i>
+										<span class="cart-items">0</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<!-- End of Navbar -->
+				</div>
+				<!--End of Bootstrap container -->
+			</header>
+			<!--End Of Page Header-->
+
+			<!-- Gallery Section -->
+
+			<div class="container">
+				<!-- Page title -->
+				<div class="row">
+					<header class="col-12 display-3 text-center my-5">
+						<span class="page-title">Product Details</span>
+					</header>
+                </div>
+
+                <!-- Page Content -->
+
+                <div id="details"></div>
+
+
+				<!-- <div class="row my-5 product-details">
+
+                    <div class="card mb-3" style="max-width: 940px; max-height: 240px;">
+                    <div class="row no-gutters ">
+                        <div class="col-md-4">
+                            <img src="images/product-1.jpg" class="card-img" style="max-height: 240px!important" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body pb-0">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, velit dolor totam facilis lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, velit dolor totam facilis </p>
+                            <p class=" mt-3">Price : <span class="card-price"> 987654321 </span> EGP</p>
+                            <button class="grow-1 col-12 btn btn-warning bag-btn" data-id="${product.id}">Add To Cart <i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div> -->
+
+
+                </div>
+
+			<!--End Of Gallery Section -->
+		</div>
+		<!-- End of Page wrapper -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+        ></script>
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script>
+            // get id
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+            // if (!productId) {
+            //     alert("Product id is invalid");
+            //     return;
+            // }
+
+            $.ajax({//slim build doesn't work, u need compressed
+                url: "products2.json",
+                success: render
+            })
+
+            function render(response) {
+                product = response.find((item) => {
+                return item.id == productId;
+                });
+
+
+            const details = document.getElementById("details");
+
+            if (product) {
+            // render
+            details.innerHTML =`<div class="row my-5 product-details">
+
+                    <div class="card mb-3" style="max-width: 940px; max-height: 240px;">
+                    <div class="row no-gutters ">
+                        <div class="col-md-4">
+                            <img src=${product.image} class="card-img" style="max-height: 240px!important" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body pb-0">
+                            <h5 class="card-title">${product.title}</h5>
+                            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, velit dolor totam facilis lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, velit dolor totam facilis </p>
+                            <p class=" mt-3">Price : <span class="card-price"> ${product.price} </span> EGP</p>
+                            <button class="grow-1 col-12 btn btn-warning bag-btn" onclick='getBagBtns()' data-id="${product.id}">Add To Cart <i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div> `;
+            }else {
+            alert("Product is not found");
+            }
+
+
+            }
+
+            //* function to get addtochart btn Id
+	function getBagBtns() {
+		//const addtocartbtns = document.getElementsByClassName('bag-btn');
+		const addtocartbtns = [...document.getElementsByClassName('bag-btn')];
+
+		buttonsDOM = addtocartbtns;
+
+		addtocartbtns.forEach((button) => {
+			let id = button.dataset.id;
+			// console.log('id', id);
+
+			//* check if the item is in my cart
+			let inCart = cart.find((item) => item.id === id);
+			if (inCart) {
+				button.innerHTML = 'In Cart';
+				button.disabled = 'true';
+			}
+
+			button.addEventListener('click', function (event) {
+
+				if (isLoggedIn) {
+
+
+					// console.log(event.target);
+					event.target.innerHTML = 'In Cart';
+					event.target.disabled = 'true';
+
+					//* 1 get the product clicked from local storage
+					let cartItem = { ...Storage.getProduct(id), amount: 1 };
+
+					console.log("cartItem", cartItem);
+
+					//* 2 add product to cart array
+					cart.push(cartItem);
+					// cart=[...cart,cartItem]
+					console.log('cart array to be saved in local storage', cart);
+
+
+					//* 3 save cart to local storage
+					Storage.saveProduct('cart', cart);
+
+					//* 4 set cart values
+					// cartCounter++;
+					// cartItemsNav.innerHTML = cartCounter;
+
+					// console.log('this', this);
+					//! setting cart values
+					let tempTotal = 0;
+					let itemsTotal = 0;
+					cart.map((item) => {
+						tempTotal += item.price * item.amount;
+						// console.log('tempTotal', tempTotal);
+						itemsTotal += item.amount;
+					});
+
+					let totalCartLS = parseFloat(tempTotal.toFixed(2));
+					localStorage.setItem('myCartTot', totalCartLS);
+
+					cartItemsNav.innerHTML = itemsTotal;
+					// console.log('cartItemsNav', cartItemsNav);
+				} else {
+					alert('Sorry you need to login first before you add movies to your the Cart');
+				}
+
+			});
+		});
+	}
+
+        </script>
+	</body>
+</html>

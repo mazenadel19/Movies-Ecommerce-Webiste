@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Movies</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+
+		<!-- font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/7a3da45493.js"
+			crossorigin="anonymous"
+    ></script>
+    <script src="https://use.fontawesome.com/bb778a1510.js"></script>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bs4.pop.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/bs4.pop.js"></script>
+	</head>
+	<body>
+
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+
+    <!-- Page Header-->
+    <header class="nav_header sticky-top">
+
+      <!--End of Bootstrap container -->
+      <div class="container">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark navbar-expand-md justify-content-between p-1" style="color: purple;">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active pl-0" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <a href="home.html" class="navbar-brand mx-auto d-block font-weight-bold text-center order-0 order-md-1 w-25 bolder" style="font-size:30px"><span class="font-weight-bolder" style="color: var(--warning-co);">M</span>ovies</a>
+
+
+            <div class="navbar-collapse collapse w-50 order-2">
+
+              <ul class="nav navbar-nav ml-auto" style="font-size: 20px;">
+
+                <li class="nav-item mr-2"><a class="nav-link" href=""><i class="fas fa-user-circle"></i></a></li>
+
+                <li class="nav-item cart-btn">
+                      <a class="nav-link" href="">
+                        <i class="fas fa-cart-plus"></i>
+                        <span class="cart-items">0</span>
+                    </a>
+                  </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Navbar -->
+
+      </div>
+      <!--End of Bootstrap container -->
+    </header>
+    <!-- End of Page Header-->
+
+    <!-- main section -->
+    <main class="pt-4">
+        <!-- Bootstrap container -->
+        <div class="container" style="height:100vh">
+
+            <div class="jumbotron jumbotron-fluid text-center" style="height:80vh;" id="main">
+                <div class="container">
+                    <h1 class="display-2 text-uppercase">Welcome to <span class="font-weight-bolder" style="color: var(--warning-co);">M</span>ovies</h1>
+                    <p class="lead mt-4">No need to go anywhere else, you'll find all your favorite movies here.</p>
+                </div>
+            </div>
+
+        </div>
+      <!--End of Bootstrap container -->
+    </main>
+    <!--End of main section -->
+
+    <hr>
+
+    <!--about us section-->
+    <section  id="aboutus">
+      <div class="jumbotron jumbotron-fluid colored-section">
+
+        <div class="container-fluid centerVertically">
+              <div class="container" >
+                  <h1 class="display-2  mb-5 page-title text-center">About Us</h1>
+                  <p class=" lead my-5">Movies is your go to website if you're a big movies fan like us,<br>
+                    You can find all your favorite movies in our Gallery and you can recommend us movies to add from the Contact Us section below <br>
+                    Movies you purchased will be found in your Cart Page but you need to be a registered user first before you send a purchase order
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!--End of about us section -->
+
+    <hr>
+
+    <!--contact us section -->
+    <section id="contactus">
+      <div class="jumbotron jumbotron-fluid colored-section">
+
+        <div class="container-fluid centerVertically">
+                <div class="container" style="height: inherit;">
+                    <h1 class="display-2  page-title text-center">Contact Us</h1>
+
+                    <div id="form-main">
+                      <div id="form-div">
+                        <form class="form" id="form1" onsubmit="mySubmit(event)">
+
+                          <p class="name">
+                            <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+                          </p>
+
+                          <p class="email">
+                            <input name="email" type="email" class=" feedback-input" id="email" placeholder="Email" value=""/>
+                          </p>
+
+                          <p class="text">
+                            <textarea name="text" type="text" class="feedback-input" id="recommendation" value="" placeholder="Movies recommendations"></textarea>
+                          </p>
+
+                          <div class="submit">
+                            <input type="submit" value="SEND" id="button-yellow"/>
+                            <div class="ease"></div>
+                          </div>
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of contact us section -->
+    <hr>
+
+    <!--footer section -->
+    <footer class="colored-section">
+      <p>Copyright &COPY; Movies 2020</p>
+    </footer>
+    <!--End of footer section -->
+
+    </div>
+    <!-- End of Page wrapper -->
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+        ></script>
+
+		<script src="js/script.js"></script>
+      <script>
+        // TODO:  toggle the active on the navbar instead of adding it each time
+        //Not working yet(If i had time)
+
+        // ($(function() {
+        //     $('nav li a').click(function() {
+        //       $('nav li a').removeClass('active');
+        //       console.log(this)
+        //       $($(this).addClass('active'));
+        //     });
+        // }))()
+
+
+        function mySubmit(e){
+            //TODO: change it to be the same as the one in register page
+
+            e.preventDefault();
+          try{
+            name= document.getElementById("name").value;
+            mail= document.getElementById("email").value;
+            recom= document.getElementById("recommendation").value;
+
+            if (name == "") {
+                console.log("Please Fill the name field");
+                // $("#name").css('outline','3px solid red')
+                $("#name").addClass('borderRed')
+                return false;
+              }else{
+                // $("#name").css('outline','3px solid green')
+                $("#name").removeClass('borderRed');
+                $("#name").addClass('borderGreen');
+              }
+
+              if(mail == ""){
+                console.log("Please Fill the mail field");
+                $("#email").addClass('borderRed')
+                return false;
+              }else{
+                $("#email").removeClass('borderRed');
+                $("#email").addClass('borderGreen')
+                }
+
+            if(recom == ""){
+                console.log("Please add a recommended movie field");
+                // $("#recommendation").addClass('borderRed');
+                return false;
+            }else{
+                // $("#recommendation").removeClass('borderRed');
+                $("#recommendation").addClass('borderGreen')
+            }
+
+            if((name!="")&&(mail!="")&&(email!="")){
+                bs4pop.notice('Thanks for your suggestion', {position: 'bottomleft'})
+                $("#name").val("").removeClass('borderGreen');
+                $("#email").val("").removeClass('borderGreen');
+                $("#recommendation").val("").removeClass('borderGreen');
+            }
+          }catch (e) {
+            throw new Error(e.message);
+          }
+            return false;
+        }
+      </script>
+    </body>
+</html>
+
+                    <!-- <form>
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                      </div>
+                    </form> -->
+
+
+
+
+
+
+
+
+
+                    <!--
+                                  $('#button-yellow').on('click',()=>{
+            console.log('clicked')
+            if ( ($('#email').val('')) || ($('#recommendation').val('')) ){
+              console.log('empty')
+              return false
+            }else{
+              console.log('not empty')
+
+              $('#recommendation').val('');
+              $('#email').val('');
+              $('#name').val('')
+            }
+            });
+                     -->
